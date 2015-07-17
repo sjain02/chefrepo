@@ -2,6 +2,7 @@ default["apache"]["sites"]["saurabhjain1"]={ "site_title" => "Saurabh Jain Websi
 default["apache"]["sites"]["saurabhjain1b"]={ "site_title" => "Saurabh Jain2 Website", "port" => 80, "domain" => "saurabhjain1b.mylabserver.com" }
 default["apache"]["sites"]["saurabhjain2"]={ "site_title" => "Saurabh Jain2 Website", "port" => 80, "domain" => "saurabhjain2.mylabserver.com" }
 
+default["author"]["name"] = "saurabh"
 case node["platform"]
 	when "ubuntu"
 		default["apache"]["package"]="apache2"

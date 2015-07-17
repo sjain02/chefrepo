@@ -1,0 +1,327 @@
+    1  yum install kernel-devel
+    2  yum install gcc*
+    3  echo $PATH
+    4  exit
+    5  su -saurabh
+    6  su saurabh
+    7  exit
+    8  su saurabh
+    9  exit
+   10  echo $SHELL
+   11  zsh
+   12  exit
+   13  lst
+   14  clear
+   15  echo
+   16  echo $SHELL
+   17  clear
+   18  echo $SHELL
+   19  zsh
+   20  sudo yum install zsh
+   21  zsh
+   22  exit
+   23  lst
+   24  csh
+   25  exit
+   26  yum remove nano
+   27  which nano
+   28  clear
+   29  ls
+   30  yum --help
+   31  yum install nano
+   32  which nano
+   33  whereis nano
+   34  rpm -q nano
+   35  rpm -qi nano
+   36  rpm -e nano
+   37  which nano
+   38  whereis nano
+   39  rpm -qR nano
+   40  clear
+   41  cd /etc/yum.repost.d/
+   42  ls
+   43  cd /etc/yum.repos.d/
+   44  ls
+   45  cat CentOS-Base.repo 
+   46  yum update
+   47  yum search apache2
+   48  yum search http
+   49  yum search httpd
+   50  yum install httpd.x86_64 
+   51  yum search apache
+   52  yum check apache2
+   53  yum check-check httpd
+   54  yum check-update httpd
+   55  yum deplist httpd
+   56  yum remove httpd
+   57  which httpd
+   58  yum clean packages
+   59  yum clean all
+   60  shell
+   61  lst
+   62  sh
+   63  su saurabh
+   64  exit
+   65  ehco "Username is $USER"
+   66  echo "Username is $USER"
+   67  echo 'Username is $USER'
+   68  clear
+   69  vi /etc/interfaces
+   70  ls /etc/
+   71  cat /etc/udev/rules.d/70-persistent-ipoib.rules 
+   72  vi /etc/udev/rules.d/70-persistent-ipoib.rules 
+   73  cp /etc/udev/rules.d/70-persistent-ipoib.rules  /etc/udev/rules.d/70-persistent-ipoib.rules_bkp
+   74  vi /etc/udev/rules.d/70-persistent-ipoib.rules 
+   75  dmseg |grep eth
+   76  dmesg |grep eth
+   77  ifconfig -a
+   78  cat /etc/udev/rules.d/70-persistent-ipoib.rules
+   79  dhclient -r
+   80  sudo dhclient eth0 -r
+   81  sudo dhclient eth0
+   82  cd
+   83  ifconfig -a
+   84  ifconfig eth0 down
+   85  ifconfig eth0 up
+   86  ifconfig -a
+   87  ifup eth1
+   88  vi /etc/udev/rules.d/70-persistent-ipoib.rules
+   89  vi /etc/sysconfig/network-scripts/ifcfg-eth0 
+   90  rm -rf /etc/udev/rules.d/70-persistent-ipoib.rules
+   91  init 0
+   92  vi /etc/udev/rules.d/70-persistent-ipoib.rules_bkp 
+   93  cd /etc/udev/rules.d/
+   94  ll
+   95  mv 70-persistent-ipoib.rules_bkp 70-persistent-ipoib.rules
+   96  ll
+   97  vi 70-persistent-ipoib.rules 
+   98  cd /etc/
+   99  cd sysconfig/network-scripts/
+  100  ll
+  101  cat ifcfg-eth0
+  102  cat /etc/hosts
+  103  numtil
+  104  nmutil
+  105  nmtil
+  106  nmutil
+  107  ntmuil
+  108  clear
+  109  vi /etc/hosts
+  110  exit
+  111  user jenkins
+  112  man user
+  113  create user jenkins
+  114  man user*
+  115  cd
+  116  find user*
+  117  clear
+  118  useradd jenkins
+  119  passwd jenkins
+  120  vi /etc/sudoers
+  121  sudo su jenkins -
+  122  vi /etc/passwd
+  123  sudo su jenkins -
+  124  sudo su jenkins -
+  125  ssh-keygen
+  126  sudo su jenkins -
+  127  vi /etc/sudoers
+  128  sudo su jenkins
+  129  sudo su jenkins -
+  130  java
+  131  java -version
+  132  javac -version
+  133  jar
+  134  sudo su jenkins -
+  135  yum install git
+  136  git
+  137  sudo su jenkins -
+  138  exit
+  139  cd
+  140  cd chef-repo/
+  141  ll
+  142  cd cookbooks/
+  143  ll
+  144  cd ReleaseAutomation/
+  145  ll
+  146  cd ..
+  147  ping jaisa05-m4800
+  148  ping jaisa05-m4800.ca.com
+  149  ifconfig
+  150  pwd
+  151  ll
+  152  cd ..
+  153  ll
+  154  ls -al
+  155  cd .chef/
+  156  pwd
+  157  cd /opt/
+  158  ll
+  159  cd CA/
+  160  ll
+  161  cd ReleaseAutomationAgent/
+  162  ls -al
+  163  cd ..
+  164  chmod a+x ReleaseAutomationAgent/
+  165  ls -al
+  166  cd ..
+  167  cd  chef/
+  168  ls -al
+  169  cd bin/
+  170  ls -al
+  171  pwd
+  172  cd 
+  173  cd chef-repo/
+  174  ls -al
+  175  cd .chef/
+  176  ls -al
+  177  cd ..
+  178  ls -al
+  179  cat README.md 
+  180  clear
+  181  ls -al
+  182  ls -al /tmp/
+  183  ls -al /tmp/ch*
+  184  cd 
+  185  ls -al
+  186  knife
+  187  clear
+  188  knife bootstrap 192.168.56.103 -x root -P sjai@123 -N VMNode
+  189  cd chef-repo/
+  190  knife bootstrap 192.168.56.103 -x root -P sjai@123 -N VMNode
+  191  ls -al
+  192  clear
+  193  cd cookbooks/
+  194  cd ..
+  195  knife cookbook create apache
+  196  cd cookbooks/
+  197  ls 
+  198  cd apache/
+  199  ll
+  200  cd
+  201  cd chef-repo/
+  202  ll
+  203  cd cookbooks/
+  204  cd apache/
+  205  ll
+  206  clear
+  207  cd recipes/
+  208  ll
+  209  pwd
+  210  gedit default.rb
+  211  gedit default.rb &
+  212  vi default.rb
+  213  knife cookbook upload apache
+  214  knife cookbook upload apache
+  215  vi default.rb
+  216  knife cookbook upload apache
+  217  cd
+  218  cd chef-repo/
+  219  cd cookbooks/
+  220  ll
+  221  cd apache/
+  222  cd recipes/
+  223  ll
+  224  clear
+  225  gedit default.rb &
+  226  knife cookbook upload apache
+  227  knife cookbook upload apache
+  228  knife cookbook upload apache
+  229  knife bootstrap saurabhjain2.mylabserver.com -x root -P sjai@123 -N ubuntuNode
+  230  knife node run_list add ubuntuNode "recipe[apache]"
+  231  knife bootstrap saurabhjain2.mylabserver.com -x root -P sjai@123 -N ubuntuNode
+  232  knife bootstrap saurabhjain2.mylabserver.com -x root -P sjai@123 -N ubuntuNode
+  233  ping saurabhjain2.mylabserver.com
+  234  knife bootstrap saurabhjain2.mylabserver.com -x root -P sjai@123 -N ubuntunode
+  235  knife bootstrap saurabhjain2.mylabserver.com -x root -P sjai@123 -N ubuntunode --bootstrap-version 11.16.4-1
+  236  knife bootstrap saurabhjain2.mylabserver.com --bootstrap-version 11.16.4-1 -x root -P sjai@123 -N ubuntunode
+  237  knife bootstrap saurabhjain2.mylabserver.com --bootstrap-version 11.16.4-1 -x root -P sjai@123 -N ubuntunode --sudo
+  238  chef version
+  239  knife version
+  240  knife -version
+  241  knife bootstrap saurabhjain2.mylabserver.com -x root -P sjai@123 -N ubuntunode
+  242  knife bootstrap saurabhjain2.mylabserver.com -x root -P sjai@123 -N ubuntunode
+  243  knife bootstrap saurabhjain2.mylabserver.com -x root -P sjai@123 -N ubuntunode
+  244  knife node run_list add ubuntunode "recipe[apache]"
+  245  knife node run_list add ubuntunode -b "recipe[apahe]" "recipe[security]"
+  246  ll
+  247  cd //
+  248  cd ..
+  249  cd 
+  250  cd chef-repo/
+  251  ll
+  252  cd cookbooks/
+  253  ll
+  254  knife node run_list add ubuntunode -b "recipe[apahe]" "recipe[security]"
+  255  knife node run_list add ubuntunode "recipe[security]"
+  256  knife node run_list add ubuntunode -b "recipe[apahe]" "recipe[security]"
+  257  knife node run_list
+  258  knife node list
+  259  knife node show ubuntunode
+  260  knife node run_list add ubuntunode -b "recipe[apache]" "recipe[security]"
+  261  knife node show ubuntunode
+  262  knife node run_list add ubuntunode -b "recipe[apache]" "recipe[security]"
+  263  knife cookbook upload apache
+  264  knife cookbook upload apache
+  265  knife cookbook upload apache
+  266  knife cookbook upload apache
+  267  cd apache/
+  268  cd recipes/
+  269  vim default.rb
+  270  cat /etc/hosts
+  271  ifconifig
+  272  ifconfig
+  273  cd /etc/sysconfig/network-scripts/
+  274  ll
+  275  cat ifcfg-eth0 
+  276  clear
+  277  cd 
+  278  cd chef-repo/
+  279  cd cookbooks/
+  280  ll
+  281  clear
+  282  ll
+  283  history
+  284  git status
+  285  cd ..
+  286  git status
+  287  clear
+  288  ls
+  289  mkdir environments
+  290  cd environments/
+  291  vim dev.rb
+  292  ccd ..
+  293  cd ..
+  294  cd  cookbooks/
+  295  cd apache/
+  296  vim metadata.rb
+  297  cd ..
+  298  cd environments/
+  299  vim dev.rb 
+  300  clear
+  301  knife environment list -w
+  302  knife environment from file dev.rb 
+  303  knife environment list -w
+  304  cd  ..
+  305  clear
+  306  cd cookbooks/
+  307  cd apache/
+  308  ll
+  309  cd attributes/
+  310  vim default.rb
+  311  cd ..
+  312  cd recipes/
+  313  vi default.rb
+  314  cd ..
+  315  cd templates/
+  316  ll
+  317  cd default/
+  318  ll
+  319  vi index.html.erb
+  320  cd ..
+  321  ll
+  322  vi metadata.rb
+  323  knife cookbook upload apache
+  324  cd ..
+  325  git add .
+  326  ll
+  327  history >>17July2015.txt
